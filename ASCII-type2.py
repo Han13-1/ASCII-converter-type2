@@ -4,7 +4,7 @@ while i< 1:
 #get ASCII    
     if x.isalpha():
         print("your character is: ",ord(x))
-#differencial        
+#differential        
     elif int(x) in range(0,9):
         n = input("is this an ASCII value? yes or no:  ")
         if n == "yes":
